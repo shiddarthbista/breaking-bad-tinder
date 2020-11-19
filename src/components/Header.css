@@ -1,0 +1,39 @@
+.cardBackground {
+	background-color: red;
+}
+.header {
+	background-color: white;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	padding: 10px 5px;
+	box-shadow: 0 2px 3px 0 rgba(0,0,0,0.1);
+}
+
+button {
+	background-color: transparent;
+	border: 0;
+	width: 50px;
+    cursor: pointer;
+    outline: none;
+}
+
+button img {
+    
+    width: 80px;
+    object-fit: contain;
+}
+
+.topBar {
+	float: left;
+	width: 33%;
+}
+
+.topBar:first-child {
+	text-align: left;
+}
+
+.topBar:last-child {
+	text-align: right;
+}

@@ -1,0 +1,35 @@
+
+.swipeCard{
+    position: relative ;
+    width: 450px;
+    padding: 20px;
+    max-width: 85vw;
+    height: 60vh;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+}
+
+.card-info > h3 {
+    position: absolute;
+    bottom: 10px;
+    color: white;
+}
+.card-info > h1 {
+    position: absolute;
+    bottom: 35px;
+    color: white;
+}
+
+.cardContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+}
+
+.swipe {
+    position: absolute;
+}
+
+
